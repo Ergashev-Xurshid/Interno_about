@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* header */
+header {
+  margin-top: 44px;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+}
+
+.logo img {
+  width: 34px;
+  height: 34px;
+}
+
+.header_item {
+  display: flex;
+  list-style: none;
+}
+
+.header_link {
+  text-decoration: none;
+  padding: 2px 31px;
+  color: #292F36;
+}
+
+.banner {
+  margin-top: 45px;
+}
+
+/* main */
+#about {
+  margin-top: 200px;
+}
+
+.commit {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  border: 10px solid #F4F0EC;
+  border-radius: 45px;
+}
+
+.commit_title {
+  width: 551px;
+  height: 132px;
+  margin: 0 auto;
+  padding: 56px 62px 66px 62px;
+}
+
+.commit_text {
+  width: 209px;
+  height: 39.25px;
+  margin: 0 auto;
+
+}
+
+.what_title {
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.5px;
+  margin-bottom: 23px;
+}
+
+
+
+.what_text {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  margin-bottom: 41px;
+  color: #4D5053;
+}
+
+.what_link {
+  width: 220px;
+  height: 75px;
+  padding: 26px 41px 26px 41px;
+  border-radius: 18px;
+  background-color: #292F36;
+  color: white;
+  text-decoration: none;
+}
+
+.bxx {
+  width: 15px;
+  height: 13px;
+  color: #CDA274;
+}
+
+.content_1 {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_1 img {
+  border-radius: 75px;
+}
+
+.content_2 {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.content_2 img {
+  border-radius: 75px;
+}
+
+.what_2 {
+  margin-left: 40px;
+}
+
+#content {
+  margin-bottom: 173px;
+}
+
+#people {
+  background-color: #F4F0EC;
+}
+
+.people_title {
+  width: 547px;
+  height: 126px;
+  margin: 0 auto;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.5px;
+  text-align: center;
+}
+
+.row_2 {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.user {
+  width: 283.55px;
+  height: 433px;
+  border-radius: 15px;
+}
+
+.people_1 img {
+  width: 283.55px;
+  height: 433px;
+  border-radius: 15px;
+}
+
+.tar {
+  margin: 55px 24px;
+}
+
+.user {
+  background-color: white;
+}
+
+.user_title {
+  width: 227.25px;
+  height: 63.47px;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  text-align: center;
+  margin: 70px 27px;
+
+}
+
+
+.user_3 {
+  width: 222.27px;
+  height: 75.47px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #4D5053;
+  margin-bottom: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* input */
+#input {
+  margin-top: 213px;
+  margin-bottom: 135px;
+}
+
+.input_title {
+  width: 634px;
+  height: 126px;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.5px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 77px;
+}
+
+.user_input_1 {
+  margin-right: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+
+}
+
+.user_input_2 {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 57px;
+}
+
+#bas {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#form {
+  width: 790px;
+  height: 277px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#link {
+  text-align: center;
+  margin-top: 77px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo_text {
+  margin-top: 18px;
+  width: 393px;
+  height: 66px;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  margin-bottom: 31px;
+}
+
+.f_nav {
+  list-style: none;
+}
+
+.f_link {
+  text-decoration: none;
+  color: #4D5053;
+}
+
+.f_con {
+  width: 255px;
+}
+
+.f_item {
+  margin-bottom: 20px;
+}
+
+.footer_aloqa {
+  width: 752px;
+  height: 33px;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #4D5053;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 174px;
+}
